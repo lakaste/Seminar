@@ -25,7 +25,7 @@ else
 2, 3, 7 -> 7
 44 5 78 -> 78
 22 3 9 -> 22
-*/
+
 Console.WriteLine("enter a First number ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("enter a Second number ");
@@ -45,7 +45,7 @@ else
 {
    Console.WriteLine("Max number " + number_3);
 }
-
+*/
 
 /*
 Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
@@ -53,6 +53,19 @@ else
 4 -> да
 -3 -> нет
 7 -> нет
+
+Console.WriteLine("enter a number ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+
+if (number%2 == 0)
+{
+   Console.WriteLine("Чётное число");
+}
+else
+{
+   Console.WriteLine("Нечетное число");
+}
 */
 
 /*
@@ -60,4 +73,16 @@ else
 
 5 -> 2, 4
 8 -> 2, 4, 6, 8
-*/
+
+Console.WriteLine("enter a number ");
+int number = Convert.ToInt32(Console.ReadLine());
+int start = 1;
+
+
+while(start <= number)
+    {
+        if(start % 2 ==0)
+ Console.Write(start + ", ");
+        start ++;
+    }
+    */
