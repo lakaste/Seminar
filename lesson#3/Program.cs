@@ -58,42 +58,42 @@
 
 
 
-Console.WriteLine ("Enter a first number");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Enter a first number");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-switch(num)
-{
-   case 1: 
-   {
-     Console.WriteLine ("1 Четверть");
-     Console.WriteLine ("x>0 && y>0");
-     break;
-   }
-      case 2: 
-   {
-     Console.WriteLine ("2 Четверть");
-     Console.WriteLine ("x<0 && y>0");
-     break;
-   }
-      case 3: 
-   {
-    Console.WriteLine ("3 Четверть");
-    Console.WriteLine ("x<0 && y<0");
-     break;
-   }
-      case 4: 
-   {
-    Console.WriteLine ("4 Четверть");
-     Console.WriteLine ("x>0 && y<0");
-     break;
-   }
-   default:
-   {
+// switch(num)
+// {
+//    case 1: 
+//    {
+//      Console.WriteLine ("1 Четверть");
+//      Console.WriteLine ("x>0 && y>0");
+//      break;
+//    }
+//       case 2: 
+//    {
+//      Console.WriteLine ("2 Четверть");
+//      Console.WriteLine ("x<0 && y>0");
+//      break;
+//    }
+//       case 3: 
+//    {
+//     Console.WriteLine ("3 Четверть");
+//     Console.WriteLine ("x<0 && y<0");
+//      break;
+//    }
+//       case 4: 
+//    {
+//     Console.WriteLine ("4 Четверть");
+//      Console.WriteLine ("x>0 && y<0");
+//      break;
+//    }
+//    default:
+//    {
       
-   Console.WriteLine ("такой четверти нет");
-   break;
-   }
-}
+//    Console.WriteLine ("такой четверти нет");
+//    break;
+//    }
+// }
 
 
 
@@ -121,3 +121,4 @@ switch(num)
 //  {
 //  Console.WriteLine ("Точка находится на одной или двух координат");
 //  }
+
