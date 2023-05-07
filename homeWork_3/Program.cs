@@ -6,25 +6,25 @@
 23432 -> да
 */
 
-Console.WriteLine("Enter a number ");
-string number = Console.ReadLine();
-int pal = number.Length;
+// Console.WriteLine("Enter a number ");
+// string number = Console.ReadLine();
+// int pal = number.Length;
 
-if (pal == 5)
-{
- if (number[0] == number[4] && number[1] == number[3])
-    {
- Console.WriteLine($"{number} - Палиндром");
-    }
- else
-    {
- Console.WriteLine($"{number} - НЕ палиндром");
-    }
-}
-else
-{
- Console.WriteLine($"ERROR: {number} - не является пятизначным");
-}
+// if (pal == 5)
+// {
+//  if (number[0] == number[4] && number[1] == number[3])
+//     {
+//  Console.WriteLine($"{number} - Палиндром");
+//     }
+//  else
+//     {
+//  Console.WriteLine($"{number} - НЕ палиндром");
+//     }
+// }
+// else
+// {
+//  Console.WriteLine($"ERROR: {number} - не является пятизначным");
+// }
 
 
 /*
@@ -35,7 +35,7 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 */
 
 // int x1 = ReadInt("enter the coordinates X of the first point: ");
-// int y1 = ReadInt("enter the coordinates Y of the first point:: ");
+// int y1 = ReadInt("enter the coordinates Y of the first point: ");
 // int z1 = ReadInt("enter the coordinates Z of the first point: ");
 // int x2 = ReadInt("enter the coordinates X of the second point: ");
 // int y2 = ReadInt("enter the coordinates Y of the second point: ");
