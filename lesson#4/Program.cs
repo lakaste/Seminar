@@ -17,3 +17,18 @@
 // int result = GetSumNum();
 // Console.WriteLine(result); 
 
+
+
+
+
+
+
+Console.WriteLine("Enter a number");
+int num = Convert.ToInt32(Console.ReadLine());
+int temp = 1;
+
+for (int i = 1; i!=num+1;i++)
+{
+   temp = temp*i;
+}
+Console.WriteLine(temp);
